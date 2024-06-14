@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="signup">
+      <div>
+        <img id="cross" class="cross" src="./images/cross.png" alt="" />
+      </div>
+      <h1>Sign Up</h1>
+      <div class="link">Already a member? <a href="login">Log In</a></div>
+      <div>
+        <button class="signup-google">
+          <img src="../images/google.png" alt="" class="google" />Sign up with
+          Google
+        </button>
+      </div>
+      <div>
+        <button class="signup-facebook">
+          <img src="../images/facebook.png" alt="" class="facebook" />Sign up
+          with Facebook
+        </button>
+      </div>
+      <div>
+        <hr />
+        <p class="or">or</p>
+      </div>
+      <div>
+        <button class="signup-email">
+          <img src="../images/email.png" alt="" />
+          Sign up with email
+        </button>
+      </div>
+    </div>
+    <script>
+      const crossSign = document.getElementById("cross");
+      crossSign.addEventListener("click", function () {
+        window.location.href = "index.html";
+      });
+    </script>
+  </body>
+</html>
